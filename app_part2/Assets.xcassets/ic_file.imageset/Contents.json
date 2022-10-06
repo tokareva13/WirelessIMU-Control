@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "emblemdownloads_93482 1.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "emblemdownloads_93482 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "emblemdownloads_93482 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

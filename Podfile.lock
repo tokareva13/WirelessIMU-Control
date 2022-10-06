@@ -1,0 +1,126 @@
+PODS:
+  - Alamofire (5.6.0)
+  - Differentiator (5.0.0)
+  - FiltFilt (0.1.0)
+  - Material (3.1.0):
+    - Material/Core (= 3.1.0)
+  - Material/Core (3.1.0):
+    - Motion (~> 3.1.0)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextAreas (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextAreas (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextAreas"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MBProgressHUD (1.2.0)
+  - MDFInternationalization (3.0.0)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - ScrollableGraphView (4.0.6)
+  - SnapKit (5.0.1)
+  - StepsProcessor (0.1.0):
+    - FiltFilt (~> 0.1.0)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - Material (= 3.1.0)
+  - "MaterialComponents/TextControls+OutlinedTextAreas"
+  - "MaterialComponents/TextControls+OutlinedTextFields"
+  - MBProgressHUD (~> 1.2.0)
+  - Moya/RxSwift
+  - RxDataSources (= 5.0.0)
+  - ScrollableGraphView (= 4.0.6)
+  - SnapKit (= 5.0.1)
+  - StepsProcessor (~> 0.1.0)
+  - Swinject (= 2.8.1)
+
+SPEC REPOS:
+  "git@github.com:nikit6000/podspecs.git":
+    - FiltFilt
+    - StepsProcessor
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Material
+    - MaterialComponents
+    - MBProgressHUD
+    - MDFInternationalization
+    - Motion
+    - Moya
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - ScrollableGraphView
+    - SnapKit
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  FiltFilt: 92ddc75156afa6889e3f1d17bc0a1492004783bf
+  Material: efe0acbd7902e3a7822fcf43e8cbe413cfa73905
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  StepsProcessor: 8874c53a846bcbb794e754c19677d0e2ce690dd4
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: 587ea92a5f87358cb7c664a05ce1b72d93cb94f4
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_part2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Kjc-yP-A2T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-BK-bim">
+                                <rect key="frame" x="159.5" y="88" width="95" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="3Uc-4R-5HL"/>
+                                    <constraint firstAttribute="height" constant="95" id="Ghx-gb-2HE"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7z-QS-m4G">
+                                <rect key="frame" x="30" y="362" width="354" height="132"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TTIN_DEVELOPMENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0J-D2-TOH">
+                                        <rect key="frame" x="8" y="8" width="338" height="18.5"/>
+                                        <fontDescription key="fontDescription" name="MuktaMahee-Regular" family="Mukta Mahee" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ДОБРО ПОЖАЛОВАТЬ!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOn-gf-Ke9">
+                                        <rect key="frame" x="8" y="26.5" width="338" height="97.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="0.0" height="2"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uOn-gf-Ke9" secondAttribute="trailing" constant="8" id="8KZ-r0-Mwx"/>
+                                    <constraint firstAttribute="trailing" secondItem="L0J-D2-TOH" secondAttribute="trailing" constant="8" id="DHR-eb-ivi"/>
+                                    <constraint firstItem="uOn-gf-Ke9" firstAttribute="top" secondItem="L0J-D2-TOH" secondAttribute="bottom" id="eqi-8z-SS8"/>
+                                    <constraint firstItem="L0J-D2-TOH" firstAttribute="leading" secondItem="s7z-QS-m4G" secondAttribute="leading" constant="8" id="hts-jx-QjT"/>
+                                    <constraint firstAttribute="bottom" secondItem="uOn-gf-Ke9" secondAttribute="bottom" constant="8" id="oH7-g9-E6W"/>
+                                    <constraint firstItem="uOn-gf-Ke9" firstAttribute="leading" secondItem="s7z-QS-m4G" secondAttribute="leading" constant="8" id="obx-J0-Rfl"/>
+                                    <constraint firstItem="L0J-D2-TOH" firstAttribute="top" secondItem="s7z-QS-m4G" secondAttribute="top" constant="8" id="qJL-Nz-JI2"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0k6-Cl-riK" customClass="GradButton" customModule="app_part2" customModuleProvider="target">
+                                <rect key="frame" x="25" y="771" width="364" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="fje-We-gTw"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow" imagePlacement="trailing" title="НАЧАТЬ РАБОТУ" imagePadding="12" cornerStyle="large">
+                                    <backgroundConfiguration key="background"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qY7-Tk-g7c"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Приложение разработано для идентификации пространственных параметров движения человека" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Io-O0-IGU">
+                                <rect key="frame" x="25" y="669.5" width="364" height="57.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0k6-Cl-riK" secondAttribute="bottom" constant="28" id="0hH-dw-IFM"/>
+                            <constraint firstAttribute="trailing" secondItem="s7z-QS-m4G" secondAttribute="trailing" constant="30" id="4ld-VH-mdv"/>
+                            <constraint firstItem="Oda-BK-bim" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="69M-He-81T"/>
+                            <constraint firstItem="Kjc-yP-A2T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CoY-Fm-EVZ"/>
+                            <constraint firstItem="s7z-QS-m4G" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="U8a-WF-FDQ"/>
+                            <constraint firstItem="Kjc-yP-A2T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VFq-lX-4Eu"/>
+                            <constraint firstAttribute="bottom" secondItem="Kjc-yP-A2T" secondAttribute="bottom" id="Xt3-TQ-0rn"/>
+                            <constraint firstItem="Oda-BK-bim" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="Yxe-bC-r0X"/>
+                            <constraint firstItem="s7z-QS-m4G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="ZrD-CV-Z0x"/>
+                            <constraint firstItem="0k6-Cl-riK" firstAttribute="top" secondItem="3Io-O0-IGU" secondAttribute="bottom" constant="44" id="cjs-7M-CV6"/>
+                            <constraint firstItem="0k6-Cl-riK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="g75-X5-gm9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kjc-yP-A2T" secondAttribute="trailing" id="geG-r8-gZw"/>
+                            <constraint firstAttribute="trailing" secondItem="3Io-O0-IGU" secondAttribute="trailing" constant="25" id="jzP-1o-Ihu"/>
+                            <constraint firstItem="3Io-O0-IGU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="m7f-6W-ahj"/>
+                            <constraint firstItem="s7z-QS-m4G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nhB-Ci-bG7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0k6-Cl-riK" secondAttribute="trailing" constant="25" id="rTf-fO-Wsf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow" width="18" height="18"/>
+        <image name="background" width="414" height="896"/>
+        <image name="logo" width="95" height="95"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
